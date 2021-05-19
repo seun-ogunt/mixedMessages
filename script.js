@@ -1,8 +1,8 @@
 console.log("Mixed Messages Program");
 let Messages = {
-    firstSet : ["Wake up and Check phone", "Skipping breakfast" ],
-    secondSet : ["Feeling of connection", "Sense of Control"],
-    thirdSet : ["Journal & Drink", "Drink a delicious smoothie"],
+    firstSet : ["Wake up and Check phone", "Skipping breakfast", "Spending money on things I dont need", "Binge watching Netlix" ],
+    secondSet : ["Feeling of connection", "Sense of Control", "Boost of Mood", "Relaxation & Pleasure"],
+    thirdSet : ["Journal & Drink", "Drink a delicious smoothie", "Put extra money towards dream vacation", "Workout for 30mins"],
     generateRandomMessage(){
         let first = this.firstSet
         let index1 = Math.floor(Math.random()*first.length);
@@ -14,4 +14,4 @@ let Messages = {
     }
 }
 let sentence = Messages.generateRandomMessage();
- console.log(sentence);
+console.log(sentence);
